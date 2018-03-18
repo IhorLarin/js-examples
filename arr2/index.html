@@ -1,15 +1,52 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title></title>
+  <title>this</title>
 </head>
 <body>
 
+<style>
 
-<script src="main.js"></script>
+  body {
+    margin: 0;
+    padding: 0;
+    background: darkgray;
+  }
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 1170px;
+    height: 100vh;
+    background: #fff;
+  }
+  .container .item {
+    margin: 30px;
+    width: 200px;
+    height: 200px;
+    border: solid 1px darkgray;
+    cursor: pointer;
+    transition: .3s;
+  }
+
+  .color {
+    transform: scale(1.2);
+    background: brown;
+  }
+
+</style>
+
+<div class="container">
+  <div class="item"></div>
+  <div class="item"></div>
+  <div class="item"></div>
+
+
+</div>
+
+
+<script src="02_map.js"></script>
 </body>
 </html>

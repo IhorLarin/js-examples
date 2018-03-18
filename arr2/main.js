@@ -95,14 +95,16 @@ var arr = [1, 2, 3, 4, 5];
 function getSums(arr) {
   var res = [];
 
-  var total = arr.reduce(function (prev, item) {
-    res.push(prev);
+  var total = arr.reduce(function (prev, item) {    res.push(prev);
     return  prev + item;
   });
   res.push(total);
 
   return res;
 }
-
 console.log(getSums(arr));
+
+
+
+
 
